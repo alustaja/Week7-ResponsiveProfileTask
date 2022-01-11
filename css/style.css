@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 2rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: rgb(143, 43, 43);
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    
+    .navigation ul li {
+        border: solid #174f86;
+    }
+    
+    .image-container {
+        background-image: url(../img/profile1.jpg);
+    }
+
+    .container {
+        width: 100%;
+        background-color: #123252;
+        color: rgb(129, 61, 61);
+    }
+    
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border-bottom: none;
+        
+    }
+    
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul li a{
+        color: rgb(39, 109, 97);
+    }
+
+    .footer {
+        color: rgb(59, 145, 119);
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    .navigation ul li {
+        border: solid #295353;
+    }
+    
+    .image-container {
+        background-image: url(../img/profile2.jpg);
+    }
+
+    .container {
+        background-color: #7F8C8D;
+        color: wheat;
+    }
+
+    .footer ul li a{
+        color: white;
+    }
+
+    .footer {
+        color: white;
+    }
+}
+
+
+@media (min-width: 1024px){
+        
+    .navigation ul li {
+        border: solid #21272c;
+    }
+
+    .image-container {
+        background-image: url(../img/profile3.jpg);
+    }
+    
+    .container {
+        background-color: #647687;
+        color: white;
+    }
+
+    .footer ul li a{
+        color: white;
+    }
+
+    .footer {
+        color: white;
+    }
+}
+
+
+@media (min-width: 1200px){
+    
+    .footer ul li a{
+        color: white;
+    }
+
+    .footer {
+        color: white;
+    }
+    
+    .navigation ul li {
+        border: solid #121611;
+    }
+
+    .image-container {
+        background-image: url(../img/profile4.jpg);
+    }    
+    .container {
+        background-color: #6D8764;
+        color: black;
+    }
+
+    .header h1 {
+        margin: 3rem auto;
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid black;
+        margin-right: 4rem;
+    }
+
+    .main-container {
+        width: 75%;
+    }
+
+}
+
+
